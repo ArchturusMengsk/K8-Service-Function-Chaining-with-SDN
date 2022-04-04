@@ -38,7 +38,7 @@ Linux Environment Dependencies
 * The following python packages should be installed with pip3:
   * pip3 install selenium
   * **only within forwarder container**: pip3 install scapy
-* **Bazel**
+* **Bazel** (This Bazel install is outdated)
   * wget https://github.com/bazelbuild/bazelisk/releases/download/v1.4.0/bazelisk-linux-amd64
   * chmod +x bazelisk-linux-amd64
   * sudo mv bazelisk-linux-amd64 /usr/local/bin/bazel
@@ -50,3 +50,4 @@ TO DO
 ----------------------------------------
 
 -Add kubernetes deployment scripts
+-Add Bazel install / compilation guide
