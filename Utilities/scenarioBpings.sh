@@ -1,0 +1,12 @@
+sudo docker container exec myContainer1 ping -c 3 173.16.1.3
+sudo docker container exec myContainer1 ping -c 3 173.16.1.4
+sudo docker container exec myContainer1 ping -c 3 173.16.1.5
+sudo docker container exec myContainer1 ping -c 3 173.16.1.6
+sudo docker container exec myContainer2 ping -c 3 173.16.1.3
+sudo docker container exec myContainer2 ping -c 3 173.16.1.4
+sudo docker container exec myContainer2 ping -c 3 173.16.1.5
+sudo docker container exec myContainer2 ping -c 3 173.16.1.6
+sudo docker container exec myContainer3 ping -c 3 173.16.1.3
+sudo docker container exec myContainer3 ping -c 3 173.16.1.4
+sudo docker container exec myContainer3 ping -c 3 173.16.1.5
+sudo docker container exec myContainer3 ping -c 3 173.16.1.6
